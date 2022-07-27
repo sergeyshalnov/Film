@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '15.0'
+
+target 'Film' do
+  use_frameworks!
+
+  # External
+  pod 'SnapKit'
+  pod 'NukeUI'
+  
+  # Internal
+  pod 'Network', path: "../"
+  pod 'API', path: "../"
+  pod 'UI', path: "../"
+end

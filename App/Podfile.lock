@@ -1,0 +1,47 @@
+PODS:
+  - API (1.0.0):
+    - Network (~> 1.0.0)
+  - Gifu (3.3.1)
+  - Network (1.0.0)
+  - Nuke (10.7.1)
+  - NukeUI (0.8.0):
+    - Gifu (~> 3.0)
+    - Nuke (~> 10.5)
+  - SnapKit (5.6.0)
+  - UI (1.0.0):
+    - Network (~> 1.0.0)
+
+DEPENDENCIES:
+  - API (from `../`)
+  - Network (from `../`)
+  - NukeUI
+  - SnapKit
+  - UI (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Gifu
+    - Nuke
+    - NukeUI
+    - SnapKit
+
+EXTERNAL SOURCES:
+  API:
+    :path: "../"
+  Network:
+    :path: "../"
+  UI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  API: 35e0926bb493d9c63062857dcc5aebb86065c5aa
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  Network: 6b60c47dadfece4d8ac1ec75f087eafdfe9b25e5
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
+  NukeUI: 6e99837a8d066c93baa4262692d9ea9ffbc863ba
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  UI: 09f676d98a9472c307e18aa01938719d7c2de682
+
+PODFILE CHECKSUM: 9308dc389863ec2894d47dd04074879bfd2a5d72
+
+COCOAPODS: 1.11.3
